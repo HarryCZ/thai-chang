@@ -1,0 +1,37 @@
+.nav {
+  margin-bottom: 56px;
+}
+.nav-item {
+  float: left;
+  width: 33.3333%;
+}
+.nav-item.active,
+.nav-item:focus {
+  outline: 0;
+}
+
+.nav-link {
+  background-color: var(--color-beige-100);
+  color: var(--color-red-100);
+  font-weight: bolder;
+}
+.nav-link img {
+  width: 20px;
+  margin-right: 5px;
+  vertical-align: text-bottom;
+}
+.nav-link.active,
+.nav-link:hover {
+  background: var(--color-yellow-100);
+  color: var(--color-dark-red-100);
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+.nav-link.active ~ .subnav-content {
+  display: block;
+}

@@ -1,3 +1,4 @@
+import { MassageNavComponent } from './massage/massage-nav/massage-nav.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -6,7 +7,8 @@ import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MassageNavComponent
   ],
   imports: [
     BrowserModule,
